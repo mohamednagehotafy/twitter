@@ -1,0 +1,115 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;;
+}
+/* Start left */
+.container .left
+{
+	background: url(../img/2.jpg);
+	background-size: cover;
+	display: inline-block;
+	width:50%;
+	height:662px;
+	color:#fff;
+}
+.container .left .content{
+	width:440px;
+	margin-top: 211px;
+	margin-left: 172px;
+}
+.container .left .content div{
+	font-size: 22px;
+	font-weight: bold;
+}
+.container .left .content div p{
+	display: inline-block;
+	margin-left: 20px;
+}
+.container .left .content div .fa-2x{
+	font-size: 33px;
+}
+.container .right
+{
+	display: inline-block;
+	width:50%;
+	height:100%;
+	float:right;
+}
+
+/* End left */
+
+/* Start right */
+.container.right{
+	width:50%;
+	height:1280px;
+	background-color: #ffffff;
+}
+.container .right .login{
+	margin-left: 90px;
+	margin-top: 34px;
+}
+.container .right .login input{
+	height:42px;
+	border: 1px solid #e6ecf0;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 8px;
+	padding-left:10px;
+}
+.container .right .login .password{
+	display: inline-block;
+}
+.container .right .login button{
+	height:42px;
+	width:60.89px;
+	border-radius: 20px;
+	background-color: #fff;
+	border:1px solid #77c6f7;
+	margin-left: 10px;
+	color:#77c6f7;
+	font-weight: bold;
+}
+.container .right .forget{
+	margin-top: 3px;
+    margin-left: 203px;
+    color:#b2b8ce;
+}
+.container .right .sinup{
+	margin-top: 73px;
+	margin-left:180px;
+}
+.container .right .sinup .see{
+	font-size: 30px;
+	font-weight: bold;
+	color:#14171a;
+	margin-top:0;
+}
+.container .right .sinup .join{
+	margin-top: 27px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container .right .sinup .up{
+	display: block;
+	margin-bottom: 10px;
+	width:350px;
+	height:34px;
+	border-radius: 50px;
+	background-color:#1da1f2;
+	color:#fff;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.container .right .sinup .in{
+	width:350px;
+	height:34px;
+	border-radius: 50px;
+	background-color:#fff;
+	color:#1da1f2;
+	border:1px solid #1da1f2;
+	font-size: 18px;
+	font-weight: bold;
+}
+/* End right */
